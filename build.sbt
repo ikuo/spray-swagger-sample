@@ -89,9 +89,3 @@ resolvers ++= Seq(
 )
 
 packageArchetype.java_server
-
-seq(Revolver.settings: _*)
-
-net.virtualvoid.sbt.graph.Plugin.graphSettings
-
-
